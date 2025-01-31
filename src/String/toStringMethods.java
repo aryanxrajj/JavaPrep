@@ -22,5 +22,13 @@ public class toStringMethods {
         String s = "Box b: " + b;
 
         System.out.println(b);
+
+        byte[] ascii = {65,66,67,68,69};//Taking ascii character as Byte code
+        //Converting Ascii Code to String
+        String name = new String(ascii);
+        System.out.println(name);
+        //In this we are passing the offset and length of string we want.
+        String name1 = new String(ascii,2,3);
+        System.out.println(name1);
     }
 }
