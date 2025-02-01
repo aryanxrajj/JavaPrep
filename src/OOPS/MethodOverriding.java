@@ -30,7 +30,7 @@ class B1 extends A1{
         System.out.println("k: is "+k);
     }
 
-    void showdiff(String msg){
+    void show(String msg){
         System.out.println(msg+k);
     }
 }
@@ -41,7 +41,7 @@ public class MethodOverriding {
         b1.show();
 
         B1 b2 = new B1(4,5,6);
-        b2.showdiff("The k is : ");
-        b2.showdiff();
+        b2.show("The k is : ");
+        b2.show();
     }
 }
