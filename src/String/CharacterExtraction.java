@@ -13,7 +13,8 @@ public class CharacterExtraction {
         int start = 2;
         int end = 4;
         char[] buf = new char[4 - 2];
-        name.getChars(start,end,buf,0);//Output: Nothing
+        name1.getChars(start,end,buf,0);
+        System.out.println(name1);//Output: Nothing
 
         //getBytes()
         String name2 = "Aryan";
