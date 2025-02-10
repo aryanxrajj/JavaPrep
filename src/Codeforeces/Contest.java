@@ -11,7 +11,7 @@ public class Contest {
         while(n-- > 0){
             String name = input.nextLine();
             StringBuilder result = new StringBuilder();
-            if(name.length() > 1) {
+            if(name.length() > 2) {
                 for (int i = 0; i < name.length() - 2; i++) {
                     result.append(name.charAt(i));
                 }
