@@ -28,6 +28,11 @@ public class stringInfo {
 
         System.out.println(demo.indexOf("z "));
 
+        String name5 = "misty";
+        name5 = "aryan";
+        System.out.println(name5);
+
+
 
 
     }
