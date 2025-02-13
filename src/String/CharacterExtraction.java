@@ -25,5 +25,8 @@ public class CharacterExtraction {
         String name3 = "Paras";
         char[] arr1 = name3.toCharArray();
         System.out.println(Arrays.toString(arr1));//Output: [P, a, r, a, s]
+
+        StringBuilder name6 = new StringBuilder("Aryan");
+        System.out.println(name6.toString());
     }
 }
