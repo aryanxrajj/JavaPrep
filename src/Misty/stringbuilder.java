@@ -9,5 +9,7 @@ public class stringbuilder {
         System.out.println(name);
 
 //        String name  =
+
+        System.out.println();
     }
 }
