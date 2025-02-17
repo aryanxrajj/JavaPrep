@@ -7,6 +7,7 @@ public class CharacterExtraction {
         //CharAt() Function
         String name  = new String("Paras");
         System.out.println(name.charAt(0));//Output: P
+        System.out.println(name.length());//Output: 5
 
         //getChars() Function
         String name1 = "Hi, My Name is Aryan Raj";
