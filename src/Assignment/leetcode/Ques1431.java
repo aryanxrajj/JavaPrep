@@ -13,7 +13,7 @@ public class Ques1431 {
     }
 
     static List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
-        List<Boolean> Candies = new ArrayList<>();
+        List<Boolean> candiess = new ArrayList<>();
         int max = candies[0];
         for(int i=0;i<candies.length;i++){
             if(candies[i]>max){
@@ -23,11 +23,11 @@ public class Ques1431 {
         for(int i=0;i<candies.length;i++){
             int total = candies[i]+extraCandies;
             if(total>=max){
-                Candies.add(true);
+                candiess.add(true);
             }else{
-                Candies.add(false);
+                candiess.add(false);
             }
         }
-        return Candies;
+        return candiess;
     }
 }
