@@ -29,5 +29,8 @@ public class CharacterExtraction {
 
         StringBuilder name6 = new StringBuilder("Aryan");
         System.out.println(name6.toString());
+        String name7 = "paras";
+        String nm = name7.replace('a','e');
+        System.out.println(nm);
     }
 }
