@@ -2,7 +2,9 @@ package Assignment.GFG;
 
 class SecondLargest {
     public static void main(String[] args) {
-
+        int[] arr = {22,34,87,98,101};
+        int result = getSecondLargest(arr);
+        System.out.println(result);
 
     }
 
