@@ -14,14 +14,14 @@ public class CyclicSort {
         while(i < arr.length){
             int correct = arr[i] -1;
             if(arr[i] != arr[correct]){
-                swapnum(arr,i,correct);
+                swap(arr,i,correct);
             }else{
                 i++;
             }
         }
     }
 
-    static void swapnum(int[] arr, int i, int correct) {
+    static void swap(int[] arr, int i, int correct) {
         int temp = arr[i];
         arr[i] = arr[correct];
         arr[correct] = temp;
