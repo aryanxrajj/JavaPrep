@@ -3,7 +3,7 @@ import java.util.*;
 
 public class ValidParenthesis {
     public static void main(String[] args) {
-        String s = "[{()}]";
+        String str = "[{()}]";
     }
 
     public static boolean isBalanced(String s){
