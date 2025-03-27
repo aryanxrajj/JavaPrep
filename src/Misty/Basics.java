@@ -1,5 +1,5 @@
 package Misty;
-import java.util.*:
+import java.util.*;
 import java.lang.*;
 public class Basics {
     public static void main(String[] args) {
