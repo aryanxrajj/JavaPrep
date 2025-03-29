@@ -57,9 +57,9 @@ public class BST{
 
     public static void main(String[] args) {
         BST bst = new BST();
-        bst.insert(10);
-        bst.insert(20);
         bst.insert(30);
+        bst.insert(20);
+        bst.insert(10);
         bst.insert(40);
         bst.insert(50);
 
