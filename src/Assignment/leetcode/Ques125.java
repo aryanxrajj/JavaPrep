@@ -11,7 +11,7 @@ public class Ques125 {
         StringBuilder str = new StringBuilder();
         for(int i = 0; i < s.length();i++){
             char ch = s.charAt(i);
-            if(Character.isLetter(ch)){
+            if(Character.isLetter(ch)|| Character.isDigit(ch)){
                 str.append(ch);
             }
         }
