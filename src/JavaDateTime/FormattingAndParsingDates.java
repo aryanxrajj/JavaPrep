@@ -7,6 +7,7 @@ public class FormattingAndParsingDates {
     public static void main(String[] args) {
         LocalDate date = LocalDate.now();
         System.out.println(date);
+        //Converting Date And Time to String
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
         String formattedDate = date.format(formatter);
         System.out.println(formattedDate);
