@@ -17,6 +17,7 @@ public class Classes {
 
         public Student(String name, int rollno, float marks) {
             this.name = name;
+            this.name = "Aryan";
             this.rollno = rollno;
             this.marks = marks;
         }
