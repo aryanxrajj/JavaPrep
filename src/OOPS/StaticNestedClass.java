@@ -19,8 +19,8 @@ class Outer1{
     }
 
     public static void main(String[] args) {
-        nested1 nested = new nested1();
-        nested.showmessage();
+        nested1 n = new nested1();
+        n.showmessage();
     }
 }
 
