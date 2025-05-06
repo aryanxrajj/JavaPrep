@@ -7,10 +7,10 @@ public class Ques387 {
         String s = "leetcode"; // Example 1
         System.out.println(firstUniqChar(s));
 
-        String s2 = "loveleetcode"; // Example 1
+        String s2 = "loveleetcode"; // Example 2
         System.out.println(firstUniqChar(s2));
 
-        String s3 = "loveleetcode"; // Example 1
+        String s3 = "loveleetcode"; // Example 3
         System.out.println(firstUniqChar(s3));
     }
 
