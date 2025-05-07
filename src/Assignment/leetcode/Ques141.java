@@ -1,23 +1,27 @@
 package Assignment.leetcode;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+
 public class Ques141 {
     public static void main(String[] args) {
         int[] values1 = {3, 2, 0, -4};
         int pos1 = 1;
         ListNode head1 = createLinkedList(values1, pos1);
-        System.out.println("Example 1: " + hasCycle(head1));  // true
+        System.out.println("Example 1: " + hasCycleHashSet(head1));  // true
 
         // Example 2
         int[] values2 = {1, 2};
         int pos2 = 0;
         ListNode head2 = createLinkedList(values2, pos2);
-        System.out.println("Example 2: " + hasCycle(head2));  // true
+        System.out.println("Example 2: " + hasCycleHashSet(head2));  // true
 
         // Example 3
         int[] values3 = {1};
         int pos3 = -1;
         ListNode head3 = createLinkedList(values3, pos3);
-        System.out.println("Example 3: " + hasCycle(head3));  // false
+        System.out.println("Example 3: " + hasCycleHashSet(head3));  // false
     }
 
     public static ListNode createLinkedList(int[] values, int pos) {
@@ -50,6 +54,22 @@ public class Ques141 {
             if(slow == fast){
                 return true;
             }
+        }
+
+        return false;
+    }
+
+    public static boolean hasCycleHashSet(ListNode head){
+        HashSet<ListNode> visited = new HashSet<>();
+
+        ListNode temp = head;
+
+        while(temp != null){
+            if(visited.contains(temp)){
+                return true; //Cycle Found
+            }
+            visited.add(temp);
+            temp = temp.next;
         }
 
         return false;
