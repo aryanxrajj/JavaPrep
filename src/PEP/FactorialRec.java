@@ -3,6 +3,7 @@ package PEP;
 public class FactorialRec {
     public static void main(String[] args) {
         System.out.println(factorial2(5));
+        System.out.println(fact(5));
     }
 
     //Factorial of a Number
@@ -22,7 +23,17 @@ public class FactorialRec {
         }
 
         return fact;
+    }
 
+    public static int fact(int n){
+        if(n == 1){
+            return n;
+        }
 
+        int fact = 1;
+        fact*=n;
+        int ans = fact(n - 1);
+        fact*=ans;
+        return fact;
     }
 }
