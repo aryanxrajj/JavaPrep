@@ -1,26 +1,47 @@
 package DSA;
 import java.util.Arrays;
 
+// Java program for implementation of Insertion Sort
 public class InsertionSort {
-    public static void main(String[] args) {
-        int[] nums = {5,3,4,1,2};
-        insertionsort(nums);
-        System.out.println(Arrays.toString(nums));
+    /* Function to sort array using insertion sort */
+    void sort(int arr[])
+    {
+        int n = arr.length;
+        for (int i = 1; i < n; ++i) {
+            int key = arr[i];
+            int j = i - 1;
+
+            /* Move elements of arr[0..i-1], that are
+               greater than key, to one position ahead
+               of their current position */
+            while (j >= 0 && arr[j] > key) {
+                arr[j + 1] = arr[j];
+                j = j - 1;
+            }
+            arr[j + 1] = key;
+        }
     }
 
-   static void insertionsort(int[] arr){
-        for(int i = 0;i < arr.length - 1;i++){
-            for(int j = i+1;j>0;j--){
-                if(arr[j] < arr[j-1]){
-                    swap(arr,j,j-1);
-                }
-            }
-        }
-   }
+    /* A utility function to print array of size n */
+    static void printArray(int arr[])
+    {
+        int n = arr.length;
+        for (int i = 0; i < n; ++i)
+            System.out.print(arr[i] + " ");
 
-    static void swap(int[] arr, int j, int i) {
-        int temp = arr[j];
-        arr[j] = arr[i];
-        arr[i] = temp;
+        System.out.println();
+    }
+
+    // Driver method
+    public static void main(String args[])
+    {
+        int arr[] = { 12, 11, 13, 5, 6 };
+
+        InsertionSort ob = new InsertionSort();
+        ob.sort(arr);
+
+        printArray(arr);
     }
 }
+
+/* This code is contributed by Hritik Shah. */

@@ -1,5 +1,6 @@
 package DSA;
 
+import Revision.BubbleSort;
 import Revision.SelectionSort;
 
 import java.util.Arrays;
@@ -7,7 +8,7 @@ import java.util.Arrays;
 public class SortingPattersR {
     public static void main(String[] args) {
         int[] arr = {5,4,3,2,1};
-        SelectionSort(arr,arr.length,0,0);
+        BubbleSort(arr,arr.length - 1,0);
         System.out.println(Arrays.toString(arr));
 //        pattern(4,0);
     }

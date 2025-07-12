@@ -1,10 +1,10 @@
-package DSA;
+package DSA.Stack;
 
-import DSA.Stack.CustomStack;
+import DSA.DynamicStack;
 
-public class StackMain {
+public class DstackMain {
     public static void main(String[] args) throws Exception {
-        CustomStack stack = new CustomStack(5);
+        DynamicStack stack = new DynamicStack(10);
         stack.push(10);
         stack.push(20);
         stack.push(30);
@@ -17,7 +17,6 @@ public class StackMain {
         System.out.println(stack.pop());
         System.out.println(stack.pop());
         System.out.println(stack.pop());
-
-
+        
     }
 }
