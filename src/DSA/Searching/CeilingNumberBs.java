@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Searching;
 
 public class CeilingNumberBs {
     public static void main(String[] args) {

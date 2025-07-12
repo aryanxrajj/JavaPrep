@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Searching;
 import java.util.Arrays;
 public class Binary2D {
     public static void main(String[] args) {

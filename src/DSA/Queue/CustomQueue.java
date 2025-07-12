@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Queue;
 
 public class CustomQueue {
     protected int[] data;

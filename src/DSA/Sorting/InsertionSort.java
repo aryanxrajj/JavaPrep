@@ -1,5 +1,4 @@
-package DSA;
-import java.util.Arrays;
+package DSA.Sorting;
 
 // Java program for implementation of Insertion Sort
 public class InsertionSort {

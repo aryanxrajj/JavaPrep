@@ -1,4 +1,4 @@
-package DSA;
+package DSA.LinkedList;
 
 public class DLLInsertNode {
 

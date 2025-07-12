@@ -1,6 +1,4 @@
-package DSA;
-
-import DSA.Stack.CustomStack;
+package DSA.Stack;
 
 public class StackMain {
     public static void main(String[] args) throws Exception {

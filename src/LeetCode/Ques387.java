@@ -1,10 +1,10 @@
-package leetcode;
+package LeetCode;
 
 import java.util.HashMap;
 
 public class Ques387 {
     public static void main(String[] args) {
-        String s = "leetcode"; // Example 1
+        String s = "LeetCode"; // Example 1
         System.out.println(firstUniqChar(s));
 
         String s2 = "loveleetcode"; // Example 2

@@ -1,7 +1,4 @@
-package DSA;
-
-import Revision.BubbleSort;
-import Revision.SelectionSort;
+package DSA.Sorting;
 
 import java.util.Arrays;
 

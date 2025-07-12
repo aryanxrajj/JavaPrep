@@ -1,6 +1,4 @@
-package DSA;
-
-import DSA.Stack.CustomStack;
+package DSA.Stack;
 
 public class DynamicStack extends CustomStack {
     protected int[] data;

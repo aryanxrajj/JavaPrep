@@ -1,7 +1,5 @@
 package DSA.Stack;
 
-import DSA.DynamicStack;
-
 public class DstackMain {
     public static void main(String[] args) throws Exception {
         DynamicStack stack = new DynamicStack(10);

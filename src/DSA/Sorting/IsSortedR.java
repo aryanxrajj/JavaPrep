@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Sorting;
 
 public class IsSortedR {
     public static void main(String[] args) {

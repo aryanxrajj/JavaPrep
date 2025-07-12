@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Searching;
 
 public class RecursionBinary {
     public static void main(String[] args) {

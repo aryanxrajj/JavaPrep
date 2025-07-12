@@ -1,11 +1,11 @@
-package leetcode;
+package LeetCode;
 
 import java.util.HashMap;
 
 public class Ques2085 {
     public static void main(String[] args) {
-        String[] words1 = {"leetcode","is","amazing","as","is"};
-        String[] words2 = {"amazing","leetcode","is"};
+        String[] words1 = {"LeetCode","is","amazing","as","is"};
+        String[] words2 = {"amazing", "LeetCode","is"};
 
         System.out.println(countWords(words1,words2));
     }

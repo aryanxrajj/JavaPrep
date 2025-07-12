@@ -1,4 +1,4 @@
-package leetcode;
+package LeetCode;
 
 import java.util.*;
 public class Ques1598 {

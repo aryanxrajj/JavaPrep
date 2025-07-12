@@ -1,6 +1,4 @@
-package DSA;
-
-import java.util.Scanner;
+package DSA.BinaryTree;
 
 class Node {
 
