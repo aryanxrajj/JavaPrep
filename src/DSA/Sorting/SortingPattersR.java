@@ -23,7 +23,7 @@ public class SortingPattersR {
             System.out.println();
         }
     }
-    //Bubble Sort through Recursion...
+    //Bubble Sort through DSA.Recursion...
     public static void BubbleSort(int[] arr, int r, int c){
         if(r == 0){
             return;
@@ -38,7 +38,7 @@ public class SortingPattersR {
             BubbleSort(arr,r-1,0);
         }
     }
-    //Selection Through Recursion.
+    //Selection Through DSA.Recursion.
     public static void SelectionSort(int[] arr, int r, int c,int max){
         if(r == 0){
             return;

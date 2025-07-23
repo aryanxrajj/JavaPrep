@@ -1,4 +1,4 @@
-package Recursion;
+package DSA.Recursion;
 
 public class Recursion2 {
     public static void main(String[] args) {
