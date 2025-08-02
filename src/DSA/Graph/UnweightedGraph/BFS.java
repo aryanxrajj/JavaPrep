@@ -17,7 +17,7 @@ public class BFS {
     public static ArrayList<Integer> BFSGraph(ArrayList<ArrayList<Integer>> list){
         ArrayList<Integer> res = new ArrayList<>();
         Queue<Integer> queue = new LinkedList<>();
-        boolean[] visited = new  boolean[list.size()];
+        boolean[] visited = new boolean[list.size()];
 
         int s = 0;
         visited[s] = true;
