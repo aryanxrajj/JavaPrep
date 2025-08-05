@@ -2,8 +2,6 @@ package DSA.Graph.UnweightedGraph;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Queue;
 
 public class DFS {
     public static void main(String[] args) {
