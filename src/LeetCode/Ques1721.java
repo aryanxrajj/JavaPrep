@@ -39,9 +39,9 @@ public class Ques1721 {
             second = second.next;
         }
 
-        int tempo = first.val;
-        first.val = second.val;
-        second.val = tempo;
+        first.val = first.val ^ second.val;
+        second.val = first.val ^ second.val;
+        first.val = first.val ^ second.val;
 
         return head;
     }
