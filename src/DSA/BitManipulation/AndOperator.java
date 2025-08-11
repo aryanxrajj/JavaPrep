@@ -11,7 +11,7 @@ public class AndOperator {
         return (n & 1) == 0; //If the Number is LSB is 0 and Number is Odd LSB is 1
     }
 
-    //Finding the Power Of 2;
+    //Finding the Power Of 2
     public static boolean PowerOfTwo(int n){
         return n > 0 && (n & (n - 1)) == 0;
     }
