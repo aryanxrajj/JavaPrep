@@ -26,7 +26,7 @@ public class CycleInLinkedList {
     public static void main(String[] args) {
         Node head = new Node(8);
         head.next = new Node(5);
-//        head.next.next = new Node(8);
+        head.next.next = new Node(8);
 
         Node result = detectCycle(head);
         System.out.println(result.data);
