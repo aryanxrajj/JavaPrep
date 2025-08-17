@@ -3,7 +3,7 @@ package LeetCode;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
-
+import java.util.*;
 public class Ques47 {
     public static void main(String[] args) {
         int[] arr = {1, 1, 2};
