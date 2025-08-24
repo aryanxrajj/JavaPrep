@@ -29,11 +29,11 @@ public class Ques47 {
             return;
         }
 
-        int ele = unprocessed.remove(0);
+        int element = unprocessed.remove(0);
 
         for(int i = 0; i <= processed.size(); i++){
             ArrayList<Integer> internal = new ArrayList<>(processed);
-            internal.add(i,ele);
+            internal.add(i,element);
             permute(internal,new ArrayList<>(unprocessed));
         }
     }
