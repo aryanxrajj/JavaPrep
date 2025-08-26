@@ -21,6 +21,8 @@ public class Ques47 {
         return result;
     }
 
+    //Ye function jo neeche hai woh galat isliye kripa karke isse na padhe kabhi bhii...
+    //Aur Baad me sahi karlee jab bhi aapka mood ho...
     public static void permute(ArrayList<Integer> processed, ArrayList<Integer> unprocessed){
         if(unprocessed.isEmpty()){
             if(set.add(processed)){
