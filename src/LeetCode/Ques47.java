@@ -20,7 +20,7 @@ public class Ques47 {
         permute(new ArrayList<>(),unprocessed);
         return result;
     }
-    
+
     public static void permute(ArrayList<Integer> processed, ArrayList<Integer> unprocessed){
         if(unprocessed.isEmpty()){
             if(set.add(processed)){
