@@ -29,7 +29,7 @@ public class Ques47 {
             return;
         }
 
-        int element = unprocessed.remove(0);
+        int element = unprocessed.removeFirst();
 
         for(int i = 0; i <= processed.size(); i++){
             ArrayList<Integer> internal = new ArrayList<>(processed);
