@@ -19,12 +19,11 @@ public class BFS {
         Queue<Integer> queue = new LinkedList<>();
         boolean[] visited = new boolean[list.size()];
 
-        int s = 0;
-        visited[s] = true;
-        queue.add(s);
+        visited[0] = true;
+        queue.add(0);
 
         while(!queue.isEmpty()){
-            int curr = queue.poll();;
+            int curr = queue.poll();
             res.add(curr);
 
             for(int x : list.get(curr)){
