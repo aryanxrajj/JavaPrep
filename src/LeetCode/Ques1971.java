@@ -7,11 +7,13 @@ public class Ques1971 {
         int n = 3;
         int[][] edges = {
                 {0,1},
-                {1,2},
-                {2,0}
+                {0,2},
+                {3,5},
+                {5,4},
+                {4,3}
         };
         int source = 0;
-        int destination = 2;
+        int destination = 5;
 
         System.out.println(validPath(n,edges,source,destination));
     }
