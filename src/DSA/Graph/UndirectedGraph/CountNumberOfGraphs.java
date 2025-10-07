@@ -1,4 +1,4 @@
-package DSA.Graph.UnweightedGraph;
+package DSA.Graph.UndirectedGraph;
 
 public class CountNumberOfGraphs {
     public static void main(String[] args) {
