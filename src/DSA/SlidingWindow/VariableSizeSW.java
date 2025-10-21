@@ -1,6 +1,5 @@
 package DSA.SlidingWindow;
 
-
 public class VariableSizeSW {
     public static void main(String[] args) {
         int[] arr = {2, 3, 1, 2, 4, 3};
