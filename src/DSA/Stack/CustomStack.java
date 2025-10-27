@@ -26,7 +26,7 @@ public class CustomStack {
 
     public int pop() throws Exception{
         if(isEmpty()){
-            throw new Exception("Kuch hai hi nhi pop karne ko!!");
+            throw new Exception("Feeling Error>>❤️‍🩹");
         }
         return data[ptr--];
     }
