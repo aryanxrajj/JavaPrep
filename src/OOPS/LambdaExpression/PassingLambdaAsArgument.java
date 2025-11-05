@@ -1,4 +1,4 @@
-package LambdaExpression;
+package OOPS.LambdaExpression;
 
 interface isEven{
     boolean check(int n);
