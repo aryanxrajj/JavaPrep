@@ -13,7 +13,7 @@ public class Ques1248 {
         int count = 0;
         int prefixSum = 0;
         HashMap<Integer, Integer> map = new HashMap<>();
-        map.put(0,1);
+        map.put(0,1); //base case to get the full match
 
         for(int num : nums){
             prefixSum += num % 2;
