@@ -24,8 +24,8 @@ public class KahnsAlgorithm {
 
         int[] indegree = new int[courses];
         for(int[] list: prerequisites){
-            adjList.get(list[0]).add(list[1]);
-            indegree[list[1]]++;
+            adjList.get(list[1]).add(list[0]);
+            indegree[list[0]]++;
         }
 
         Queue<Integer> queue = new LinkedList<>();
@@ -40,11 +40,11 @@ public class KahnsAlgorithm {
 
             for(int nei: adjList.get(x)){
                 indegree[nei]--;
-                if(indegree[nei] == 0) queue.offer(indegree[nei]);
+                if(indegree[nei] == 0) queue.offer(nei);
             }
         }
 
-        return !(processed == courses);
+        return (processed == courses);
     }
 
 
