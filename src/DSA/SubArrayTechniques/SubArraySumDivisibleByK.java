@@ -17,11 +17,12 @@ public class SubArraySumDivisibleByK {
         int prefix = 0;
         for(int x : arr){
             prefix += x;
-            int rem = ((prefix % k) + k) % k; //znormalize the remainder to handle negative values
+            int rem = ((prefix % k) + k) % k; //normalize the remainder to handle negative values
             int seen = map.getOrDefault(rem,0);
             count += seen;
             map.put(rem,seen + 1);
         }
+
 
         return count;
     }
