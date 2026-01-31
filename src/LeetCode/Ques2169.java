@@ -15,7 +15,6 @@ public class Ques2169 {
             }else{
                 num2 -= num1;
             }
-
             count++;
         }
 
