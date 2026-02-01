@@ -8,7 +8,6 @@ public class Ques207 {
         int numCourses = 2;
         int[][] prerequisite = {
                 {0 , 1},
-                {1 , 0}
         };
 
         System.out.println(canFinish(numCourses,prerequisite));
