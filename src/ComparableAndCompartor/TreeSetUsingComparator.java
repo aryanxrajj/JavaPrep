@@ -26,7 +26,7 @@ public class TreeSetUsingComparator {
 
         TreeSet<Animal> set = new TreeSet<>(animal);
         set.add(new Animal("Aryan"));
-        set.add(new Animal("Misty"));
+        set.add(new Animal("Ayush"));
 
         for(Animal s : set){
             System.out.println(s);
