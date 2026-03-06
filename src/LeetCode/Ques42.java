@@ -15,16 +15,16 @@ public class Ques42 {
         while(left < right){
             if(height[left] < height[right]){
                 if(height[left] >= leftMax){
-                    leftMax = height[left];
+                    leftMax = height[left]; // LeftMax bar seen so far.
                 }else{
-                    trappedWater += leftMax - height[left];
+                    trappedWater += leftMax - height[left]; // If not the water is trapped
                 }
                 left++;
             }else{
                 if(height[right] >= rightMax){
-                    rightMax = height[right];
+                    rightMax = height[right]; // RightMax bar seen so far..
                 }else{
-                    trappedWater += rightMax - height[right];
+                    trappedWater += rightMax - height[right]; // If not the water is trapped
                 }
                 right--;
             }
